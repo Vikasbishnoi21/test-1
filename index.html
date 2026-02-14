@@ -407,7 +407,7 @@ async function loadFromSheet(){
 
   // JSONP: register both a dynamic callback and a default "callback".
   const cbName = "__pocketPnlCb_" + Date.now();
-  const timeoutMs = 15000;
+  const timeoutMs = 1500;
 
   return await new Promise((resolve, reject) => {
     let done=false;
